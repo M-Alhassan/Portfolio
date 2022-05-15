@@ -1,4 +1,4 @@
-/*===== MENU SHOW =====*/ 
+//Show navbar (desktop)
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -11,7 +11,7 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
-/*==================== REMOVE MENU MOBILE ====================*/
+//Remove navbar (mobile)
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -21,7 +21,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+//Scroll sections for active links
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -41,13 +41,19 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-/*===== SCROLL REVEAL ANIMATION =====*/
+//==========================================================================================
+//Fix problem where the header and about seciton's amination does not work
+//Check if it's better to set the reset to true or false
+//The reset resets the animation once you move on to another section of the page
+//==========================================================================================
+
+//Scroll reveal aimation
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2000,
     delay: 200,
-//     reset: true
+   // reset: true
 });
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
