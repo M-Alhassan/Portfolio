@@ -1,3 +1,24 @@
+//Firebase config
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAarRIwfqtuE3W_ZOkNEn1UD__Th67z7nI",
+  authDomain: "portfolio-bc0e3.firebaseapp.com",
+  projectId: "portfolio-bc0e3",
+  storageBucket: "portfolio-bc0e3.appspot.com",
+  messagingSenderId: "86815439841",
+  appId: "1:86815439841:web:eba768eca84b7f111a30a0"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
 //Show navbar (desktop)
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
@@ -42,7 +63,7 @@ function scrollActive(){
 window.addEventListener('scroll', scrollActive)
 
 //==========================================================================================
-//Fix problem where the header and about seciton's amination does not work
+//Fix problem where the header and about seciton's animation does not work
 //Check if it's better to set the reset to true or false
 //The reset resets the animation once you move on to another section of the page
 //==========================================================================================
