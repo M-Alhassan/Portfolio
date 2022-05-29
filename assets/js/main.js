@@ -1,23 +1,36 @@
-//Firebase config
+
+//=========================================== Firebase Config ===========================================
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
+
+//----------------- Code ------------------------
+// import { initializeApp } from "firebase/app";
+//----------------- Code ------------------------
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAarRIwfqtuE3W_ZOkNEn1UD__Th67z7nI",
-  authDomain: "portfolio-bc0e3.firebaseapp.com",
-  projectId: "portfolio-bc0e3",
-  storageBucket: "portfolio-bc0e3.appspot.com",
-  messagingSenderId: "86815439841",
-  appId: "1:86815439841:web:eba768eca84b7f111a30a0"
-};
+
+
+//----------------- Code ------------------------
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAarRIwfqtuE3W_ZOkNEn1UD__Th67z7nI",
+//   authDomain: "portfolio-bc0e3.firebaseapp.com",
+//   projectId: "portfolio-bc0e3",
+//   storageBucket: "portfolio-bc0e3.appspot.com",
+//   messagingSenderId: "86815439841",
+//   appId: "1:86815439841:web:eba768eca84b7f111a30a0"
+// };
+//----------------- Code ------------------------
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
 
+//----------------- Code ------------------------
+// const app = initializeApp(firebaseConfig);
+//----------------- Code ------------------------
+
+//=========================================== Firebase Config ===========================================
 
 //Show navbar (desktop)
 const showMenu = (toggleId, navId) =>{
