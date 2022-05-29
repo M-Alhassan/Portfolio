@@ -4,7 +4,7 @@
 // Import the functions you need from the SDKs you need
 
 //----------------- Code ------------------------
-// import { initializeApp } from "firebase/app";
+// //import { initializeApp } from "firebase/app";
 //----------------- Code ------------------------
 
 // TODO: Add SDKs for Firebase products that you want to use
