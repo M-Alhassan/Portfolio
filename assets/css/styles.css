@@ -288,6 +288,28 @@ padding-bottom: 20px;
   text-align: center;
 }
 
+.skills_grid {
+  display: flex;
+  flex-direction: column;
+}
+.skillset { 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill_box {
+  background-color: rgb(215 215 215);
+  border-radius: 5px;
+  margin: 3px;
+  padding: 6px;
+}
+
+.lang {
+  border: solid;
+}
+
 .skills__subtitle {
   margin-bottom: var(--mb-2);
 }
@@ -480,6 +502,7 @@ padding-bottom: 20px;
     justify-content: center;
     column-gap: 1rem;
   }
+
   .work__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
@@ -545,6 +568,12 @@ padding-bottom: 20px;
     align-items: center;
     text-align: initial;
   }
+  .skillset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
   .work__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
