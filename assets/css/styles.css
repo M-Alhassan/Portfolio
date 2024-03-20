@@ -271,11 +271,17 @@ padding-bottom: 20px;
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
+/*  padding-left: 10px; */
+}
+
+.about__text {
+/*  padding-left: 10px; */
 }
 
 .about__img {
   justify-self: center;
 }
+
 
 .about__img img {
   width: 100%;
