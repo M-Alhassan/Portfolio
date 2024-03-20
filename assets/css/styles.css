@@ -278,7 +278,8 @@ padding-bottom: 20px;
 }
 
 .about__img img {
-  width: 200px;
+  width: 100%;
+  /*padding-right: 15px;*/
   border-radius: .5rem;
 }
 
